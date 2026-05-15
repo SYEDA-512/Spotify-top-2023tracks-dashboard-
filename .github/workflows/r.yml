@@ -17,7 +17,7 @@ jobs:
 
       - name: Install packages
         run: |
-          Rscript -e 'install.packages(c("readxl","dplyr","ggplot2"))'
+          Rscript -e 'install.packages(c("shiny","readxl","dplyr","ggplot2"))'
 
       - name: Run script
         run: |
