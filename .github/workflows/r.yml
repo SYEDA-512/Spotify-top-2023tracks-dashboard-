@@ -17,7 +17,7 @@ jobs:
 
       - name: Install packages
         run: |
-          Rscript -e 'install.packages(c("shiny","shinydashboard","readxl","dplyr","plotly","ggplot2","DT","wordcloud"))'
+          Rscript -e 'install.packages(c("shiny","shinydashboard","readxl","dplyr","plotly","ggplot2","DT","wordcloud","fmsb"))'
 
       - name: Run script
         run: |
