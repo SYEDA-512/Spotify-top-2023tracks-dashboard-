@@ -21,4 +21,4 @@ jobs:
 
       - name: Run script
         run: |
-          Rscript "final project.R"
+          Rscript "final_project.R"
